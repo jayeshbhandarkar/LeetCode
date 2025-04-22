@@ -10,10 +10,4 @@ class Solution(object):
                 nums[index] = nums[i] 
         
         return index + 1
-
-nums = [1, 1, 2]
-s1 = Solution()
-k = s1.removeDuplicates(nums)
-
-print("Number of unique elements:", k)
-print("Modified array:", nums[:k])
+        
