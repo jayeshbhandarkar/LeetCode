@@ -1,8 +1,8 @@
-class ListNode(object):
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
-
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 class Solution(object):
     def mergeTwoLists(self, list1, list2):
         dummy = ListNode()
@@ -37,10 +37,4 @@ def printLinkedList(head):
         print(head.val, "->")
         head = head.next
     print("None")
-
-list1 = createLinkedList([1, 3, 5])
-list2 = createLinkedList([2, 4, 6])
-
-s1 = Solution()
-mergedList = s1.mergeTwoLists(list1, list2)
-printLinkedList(mergedList)
+        
