@@ -20,5 +20,3 @@ class Solution(object):
                 res = even_palindrome
         
         return res
-
-solution = Solution()
